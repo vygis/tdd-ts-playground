@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2016",
+      "es2017",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "target": "es5",
+    "types": ["node", "chai", "mocha"]
+  }
+}
